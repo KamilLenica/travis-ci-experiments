@@ -1,6 +1,5 @@
 language: cpp
 compiler: gcc
-install: make get-deps
 
 script:
 - g++ main.cpp -o travis_gcc_cpp98
