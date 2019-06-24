@@ -14,5 +14,5 @@ script:
 #cpp check
 - cppcheck --quiet --error-exitcode=1 .
 #valgrind
-- valgrind --leak-check=full -v --show-reachable=yes --log-file=memcheck.log ./travis_qmake_gcc_cpp98_memcheck
+- valgrind --leak-check=full -v --show-reachable=yes --log-file=memcheck.log ./travis_gcc_cpp98
 - cat memcheck.log
